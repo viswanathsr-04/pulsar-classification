@@ -1,6 +1,6 @@
 import streamlit as st
-import tensorflow.keras
-from keras.models import load_model
+import tensorflow as tf
+from tf.keras.models import load_model
 model1 = load_model('PulsarClassification.h5')
 
 # Define your app
